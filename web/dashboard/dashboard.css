@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Protest+Guerrilla&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #8e44ad;
+    
+}
+
+.card-container{
+    max-width: 1100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card-container .box{
+    width: calc(33%- 10px);
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding: 20px 20px;
+    border-radius: 5px;
+    
+}
+.box .name{
+    margin: 10px 0 3px 0;
+    color: #8e44ad;
+    font-size: 25px;
+    font-weight: 600;
+}
+.box .img{
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    background: #8e44ad;
+    padding: 3px;
+    border-radius: 50%;
+}
+.box .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff ;
+}
+.box{
+    border: 2px solid rgb(132, 255, 0);
+    margin:25px ;
+    height: 400px;
+    width: 300px;
+    
+}
+.box:hover{
+    box-shadow: 2px 2px 10px rgb(162, 228, 7),2px 2px 10px rgb(9, 222, 84);
+
+}
+.box p{
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.btn button{
+    background: #8e44ad;
+    width: 100%;
+    padding: 9px 0px;
+    outline: none;
+    border: 2px solid #8e44ad;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8e44ad;
+    transition:all 0.3 linear ;
+}
+.btn button:first-child{
+    background: none;
+    margin-right: 5px;
+}
+.btn button:last-child{
+    background: none;
+    
+    
+    margin-left: 5px;
+}
+.btn button:first-child:hover{
+    background: #8e44ad;
+    
+    color: #fff;
+}
+.btn button:last-child:hover{
+    background: #8e44ad;
+    color: #fff;
+}
+@media (max-width:1045px){
+    .card-container .box{
+        width: calc(50% -10px);
+        margin-bottom: 20px;
+    }
+}

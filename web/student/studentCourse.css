@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-navbar{
+    /* border: 10px solid rgb(180, 214, 10); */
+     background-color: rgb(64, 2, 76);
+    display: flex;
+    height: 100px;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    /* height: 100px; */
+    /* background-color: rgb(64, 2, 76); */
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box10{
+    color: white;
+    font-size: x-large;
+    /* color: white; */
+}
+.box10:hover{
+    background-color: rgb(188, 57, 206);
+}
+/* .box11{
+    font-weight: 900;
+    
+}  */
+
+
+/* header {
+    background: #ff00dd; */
+    /* background-color: rgb(64, 2, 76);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+} */
+
+/* header h1 {
+    margin: 0;
+} */
+
+/* nav {
+    margin-top: 10px;
+} */
+
+/* nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+} */
+
+/* nav a:hover {
+    text-decoration: underline;
+} */
+
+/* main {
+    padding: 20px;
+    text-align: center;
+} */
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} 
+
+footer p {
+    margin: 0;
+}
+
+
+
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    /* font-family: Arial, sans-serif; */
+}
+
+.main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.sub-container {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.navbar {
+    background-color: #007BFF; 
+    background-color: rgb(64, 2, 76);
+    color: white;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(33.33% - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.box h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Make sure the last box takes full width */
+.box:nth-child(7) {
+    width: 100%;
+}
+

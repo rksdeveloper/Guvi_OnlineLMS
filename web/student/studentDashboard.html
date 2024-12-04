@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student Dashboard</title>
+    <link rel="stylesheet" href="studentDashboard.css" class="src">
+</head>
+<body>
+    <div id="student-dashboard" class="dashboard">
+        <h2>Student Dashboard</h2>
+        <div class="student-section">
+            <h3>Course Enrollment</h3>
+            <form id="enrollment-form">
+                <select id="course-select">
+                    <option value="">Select a Course</option>
+                    <option value="Course 1">Course 1</option>
+                    <option value="Course 2">Course 2</option>
+                </select>
+                <button type="submit">Enroll</button>
+            </form>
+            <div id="enrollment-message"></div>
+        </div>
+
+        <div class="student-section">
+            <h3>Submit Assignment</h3>
+            <form id="submission-form">
+                <input type="file" id="assignment-upload" required>
+                <button type="submit">Submit Assignment</button>
+            </form>
+            <div id="submission-message"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="studentDashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructor Dashboard</title>
+    <link rel="stylesheet" href="InstructorDashboard.css" class="src">
+</head>
+<body>
+    <div id="instructor-dashboard" class="dashboard">
+        <h2>Instructor Dashboard</h2>
+        <div class="instructor-section">
+            <h3>Create a Quiz</h3>
+            <form id="quiz-form">
+                <input type="text" id="quiz-title" placeholder="Quiz Title" required>
+                <textarea id="quiz-questions" placeholder="Add your questions here..." required></textarea>
+                <button type="submit">Create Quiz</button>
+            </form>
+            <div id="quiz-message"></div>
+        </div>
+
+        <div class="instructor-section">
+            <h3>Manage Assignments</h3>
+            <form id="assignment-form">
+                <input type="text" id="assignment-title" placeholder="Assignment Title" required>
+                <textarea id="assignment-description" placeholder="Assignment Details" required></textarea>
+                <button type="submit">Create Assignment</button>
+            </form>
+            <div id="assignment-message"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="instructorDashboard.js"></script>
+</body>
+</html>

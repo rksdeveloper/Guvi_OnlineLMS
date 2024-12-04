@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin DashBoard</title>
+    <link rel="stylesheet" href="adminDashboard.css" class="src">
+</head>
+<body>
+    <div id="admin-dashboard" class="dashboard">
+        <h2>Admin Dashboard</h2>
+        <div class="admin-section">
+            <h3>User Management</h3>
+            <form id="user-management-form">
+                <input type="text" id="name" placeholder="User Name" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <input type="text" id="role" placeholder="Role (admin/instructor/student)" required>
+                <button type="submit">Create User</button>
+            </form>
+            <div id="user-message"></div>
+        </div>
+
+        <div class="admin-section">
+            <h3>Course Management</h3>
+            <form id="course-management-form">
+                <input type="text" id="course-title" placeholder="Course Title" required>
+                <textarea id="course-description" placeholder="Course Description" required></textarea>
+                <button type="submit">Create Course</button>
+            </form>
+            <div id="course-message"></div>
+        </div>
+    </div>
+
+    <script src="adminDashboard.js"></script>
+</body>
+</html>
